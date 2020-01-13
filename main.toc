@@ -1,0 +1,46 @@
+\contentsline {chapter}{図目次}{ii}
+\contentsline {chapter}{表目次}{iii}
+\contentsline {chapter}{\numberline {第1章}序論}{1}
+\contentsline {section}{\numberline {1.1}研究背景}{1}
+\contentsline {section}{\numberline {1.2}交通流シミュレーション}{2}
+\contentsline {subsection}{\numberline {1.2.1}交通流シミュレーションの対象となる問題}{2}
+\contentsline {subsection}{\numberline {1.2.2}交通流シミュレーションの種類}{3}
+\contentsline {subsection}{\numberline {1.2.3}交通流シミュレーションの活用}{3}
+\contentsline {section}{\numberline {1.3}OD推定手法の既存研究}{5}
+\contentsline {subsection}{\numberline {1.3.1}動的推定}{5}
+\contentsline {subsection}{\numberline {1.3.2}静的推定}{5}
+\contentsline {subsubsection}{\numberline {1.3.2.1}トリップベースのモデル}{6}
+\contentsline {subsubsection}{\numberline {1.3.2.2}リンク交通量最適化モデル}{6}
+\contentsline {subsubsection}{\numberline {1.3.2.3}数理計画モデル}{7}
+\contentsline {subsection}{\numberline {1.3.3}阿部らの手法}{8}
+\contentsline {subsubsection}{\numberline {1.3.3.1}OD推定問題の特徴}{8}
+\contentsline {subsubsection}{\numberline {1.3.3.2}手法の概要}{9}
+\contentsline {subsubsection}{\numberline {1.3.3.3}定式化}{10}
+\contentsline {subsubsection}{\numberline {1.3.3.4}二次計画問題の解法}{11}
+\contentsline {subsubsection}{\numberline {1.3.3.5}手法の評価と課題点}{11}
+\contentsline {section}{\numberline {1.4}目的}{12}
+\contentsline {section}{\numberline {1.5}本論文の構成}{13}
+\contentsline {chapter}{\numberline {第2章}提案手法}{14}
+\contentsline {section}{\numberline {2.1}問題設定}{14}
+\contentsline {section}{\numberline {2.2}手法の概要}{14}
+\contentsline {section}{\numberline {2.3}初期OD表データ}{15}
+\contentsline {section}{\numberline {2.4}シミュレーターの設定}{15}
+\contentsline {section}{\numberline {2.5}割り当て行列}{15}
+\contentsline {section}{\numberline {2.6}グループ化処理}{16}
+\contentsline {subsection}{\numberline {2.6.1}経路によるグループ化処理}{16}
+\contentsline {subsection}{\numberline {2.6.2}距離によるグループ化処理}{16}
+\contentsline {chapter}{\numberline {第3章}数値実験}{17}
+\contentsline {section}{\numberline {3.1}実験条件}{17}
+\contentsline {section}{\numberline {3.2}対象ネットワーク}{17}
+\contentsline {subsection}{\numberline {3.2.1}架空ネットワーク}{17}
+\contentsline {subsection}{\numberline {3.2.2}現実ネットワーク}{17}
+\contentsline {section}{\numberline {3.3}評価指標}{17}
+\contentsline {section}{\numberline {3.4}結果}{17}
+\contentsline {subsection}{\numberline {3.4.1}グループ生成}{17}
+\contentsline {subsection}{\numberline {3.4.2}計算時間}{17}
+\contentsline {subsection}{\numberline {3.4.3}リンク交通量比較}{17}
+\contentsline {chapter}{\numberline {第4章}結論}{18}
+\contentsline {section}{\numberline {4.1}本研究のまとめ}{18}
+\contentsline {section}{\numberline {4.2}今後の展望}{18}
+\contentsline {chapter}{謝辞}{19}
+\contentsline {chapter}{参考文献}{20}

@@ -1,0 +1,67 @@
+%%
+%% Hetare Thesis Template
+%%
+%% Author: Yasunori Yusa
+%%
+\documentclass[12pt,a4j,twoside,openany,titlepage,dvipdfmx]{jsbook}
+%
+%% パッケージ
+\usepackage{amsmath}  % アメリカ数学会の数式拡張
+\usepackage{amssymb}  % アメリカ数学会の数学記号拡張
+\usepackage[dvipdfmx]{graphicx} % 画像コマンド拡張
+\usepackage[margin=30truemm]{geometry} % 余白調整
+\usepackage[nottoc]{tocbibind} % 目次に図目次・表目次を表示
+\usepackage {diagbox} % 表の斜線のやつ
+\usepackage{bm} % ベクトル表記
+
+%
+%% subsubsection まで目次に表示
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+%
+%% 行間を調整 (30 行になるように調整)
+\linespread{1.18}
+%
+%% 表紙
+\renewcommand{\maketitle}{
+\begin{titlepage}
+ \setcounter{page}{0}
+ \begin{center}
+  {\Large 東京大学大学院工学系研究科システム創成学専攻} \\[8ex]
+  {\Large 修士論文} \\[12ex]
+  {\huge 高齢者支援施設における \\ マルチエージェントシミュレーション } \\
+  {\LARGE Multi-agent simulation in nursing homes} \\
+  \vfill
+  {\Large \today ビルド} \\[12ex]
+  {\Large 指導教員 吉村忍 教授} \\[12ex]
+  {\Large 学籍番号 37-186421} \\[8ex]
+  {\Huge 紫安勇成}
+ \end{center}
+\end{titlepage}
+}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{document}
+%
+%% 前付け
+\frontmatter
+\maketitle % 表紙
+\tableofcontents % 目次
+\listoffigures % 図目次
+\listoftables % 表目次
+%
+%% 本文
+\mainmatter
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+% \include{chapter5}
+%
+%% 後付け
+\backmatter
+\include{acknowledgments} % 謝辞
+\include{references} % 参考文献
+%
+\end{document}
