@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  13 JAN 2020 17:21
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  13 JAN 2020 18:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -474,23 +474,35 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
  (./chapter3.tex
 第3章
+File: figures/elderly_v1.png Graphic file (type bmp)
+<figures/elderly_v1.png>
+File: figures/elderly_v2.png Graphic file (type bmp)
+<figures/elderly_v2.png>
+File: figures/elderly_v3.png Graphic file (type bmp)
+<figures/elderly_v3.png>
+File: figures/health_urinate.png Graphic file (type bmp)
+<figures/health_urinate.png>
+File: figures/health_frequently_urinate_v1.png Graphic file (type bmp)
+<figures/health_frequently_urinate_v1.png>
+File: figures/dementia_urinate_v1.png Graphic file (type bmp)
+<figures/dementia_urinate_v1.png>
 ) [9
 
 
 
-]
+] [10] [11] [12]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 第4章
-) [10
+) [13
 
 
 
 ]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [11
+ (./acknowledgments.tex) [14
 
 
 
@@ -498,7 +510,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ]
 \openout2 = `references.aux'.
 
- (./references.tex) [12
+ (./references.tex) [15
 
 
 
@@ -506,12 +518,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
 (./acknowledgments.aux) (./references.aux)) ) 
 Here is how much of TeX's memory you used:
- 3531 strings out of 493281
- 43708 string characters out of 6145041
- 142241 words of memory out of 5000000
- 7330 multiletter control sequences out of 15000+600000
+ 3555 strings out of 493281
+ 44330 string characters out of 6145041
+ 142306 words of memory out of 5000000
+ 7348 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,15n,32p,1611b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (17 pages, 38676 bytes).
+Output written on thesis.dvi (20 pages, 42172 bytes).

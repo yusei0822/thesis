@@ -20,11 +20,11 @@
 \contentsline {subsection}{\numberline {2.4.3}被介護者エージェント}{8}
 \contentsline {chapter}{\numberline {第3章}数値実験}{9}
 \contentsline {section}{\numberline {3.1}実験条件}{9}
-\contentsline {section}{\numberline {3.2}介護挙動の基本的な検証}{9}
-\contentsline {section}{\numberline {3.3}評価指標}{9}
-\contentsline {section}{\numberline {3.4}結果および考察}{9}
-\contentsline {chapter}{\numberline {第4章}結論}{10}
-\contentsline {section}{\numberline {4.1}本研究のまとめ}{10}
-\contentsline {section}{\numberline {4.2}今後の展望}{10}
-\contentsline {chapter}{謝辞}{11}
-\contentsline {chapter}{参考文献}{12}
+\contentsline {section}{\numberline {3.2}介護挙動の基本的な検証}{10}
+\contentsline {section}{\numberline {3.3}評価指標}{10}
+\contentsline {section}{\numberline {3.4}結果および考察}{10}
+\contentsline {chapter}{\numberline {第4章}結論}{13}
+\contentsline {section}{\numberline {4.1}本研究のまとめ}{13}
+\contentsline {section}{\numberline {4.2}今後の展望}{13}
+\contentsline {chapter}{謝辞}{14}
+\contentsline {chapter}{参考文献}{15}
