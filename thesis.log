@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  15 JAN 2020 18:11
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  15 JAN 2020 19:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -289,6 +289,9 @@ LaTeX Info: Redefining \bm on input line 207.
 ) (./thesis.aux
 (./chapter1.aux) (./chapter2.aux) (./chapter3.aux
 
+LaTeX Warning: Label `model_explaination' multiply defined.
+
+
 LaTeX Warning: Label `elderly_v1' multiply defined.
 
 
@@ -400,13 +403,13 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 4.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 21.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 21.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
  [1
 
 ])
@@ -480,7 +483,10 @@ File: figures/intelligent_agent.png Graphic file (type bmp)
 <figures/intelligent_agent.png>
 File: figures/agent_modeling.png Graphic file (type bmp)
 <figures/agent_modeling.png>
- [6] [7] [8] [9]) [10]
+ [6] [7]
+File: figures/simulation_flow.png Graphic file (type bmp)
+<figures/simulation_flow.png>
+ [8] [9] [10]) [11]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
@@ -493,7 +499,7 @@ File: figures/elderly_v2.png Graphic file (type bmp)
 <figures/elderly_v2.png>
 File: figures/elderly_v3.png Graphic file (type bmp)
 <figures/elderly_v3.png>
-[11
+[12
 
 
 
@@ -512,22 +518,22 @@ File: figures/dementia_urinate_v1.png Graphic file (type bmp)
 <figures/dementia_urinate_v1.png>
 
 
-LaTeX Warning: Reference `被介護者ごとの排尿回数' on page 12 undefined on input
+LaTeX Warning: Reference `被介護者ごとの排尿回数' on page 13 undefined on input
  line 95.
 
-[12] [13]) [14] [15] [16] [17] [18]
+[13] [14]) [15] [16] [17] [18] [19]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 第4章
-) [19
+) [20
 
 
 
 ]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [20
+ (./acknowledgments.tex) [21
 
 
 
@@ -535,7 +541,7 @@ LaTeX Warning: Reference `被介護者ごとの排尿回数' on page 12 undefine
 ]
 \openout2 = `references.aux'.
 
- (./references.tex) [21
+ (./references.tex) [22
 
 
 
@@ -550,12 +556,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3562 strings out of 493281
- 44474 string characters out of 6145041
- 144373 words of memory out of 5000000
- 7354 multiletter control sequences out of 15000+600000
+ 3566 strings out of 493281
+ 44577 string characters out of 6145041
+ 143384 words of memory out of 5000000
+ 7357 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,15n,32p,1611b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (26 pages, 60248 bytes).
+Output written on thesis.dvi (27 pages, 62780 bytes).
