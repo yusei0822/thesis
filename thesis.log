@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  13 JAN 2020 18:47
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  15 JAN 2020 12:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -431,29 +431,38 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 3.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
+(Font)              scaled to size 11.53198pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
+(Font)              scaled to size 11.53198pt on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
+(Font)              scaled to size 11.53198pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 5.
+(Font)              scaled to size 11.53198pt on input line 7.
 [1
 
 
 
-]) [2]
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 37.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 37.
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+ [3])
+[4]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 第2章
 File: figures/concept_simulation.png Graphic file (type bmp)
 <figures/concept_simulation.png>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 9.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 9.
-[3
+[5
 
 
 
@@ -462,18 +471,16 @@ File: figures/intelligent_agent.png Graphic file (type bmp)
 <figures/intelligent_agent.png>
 File: figures/agent_modeling.png Graphic file (type bmp)
 <figures/agent_modeling.png>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
- [4] [5]
-[6]) [7] [8]
+ [6] [7] [8] [9]) [10]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 第3章
+[11
+
+
+
+]
 File: figures/elderly_v1.png Graphic file (type bmp)
 <figures/elderly_v1.png>
 File: figures/elderly_v2.png Graphic file (type bmp)
@@ -486,23 +493,19 @@ File: figures/health_frequently_urinate_v1.png Graphic file (type bmp)
 <figures/health_frequently_urinate_v1.png>
 File: figures/dementia_urinate_v1.png Graphic file (type bmp)
 <figures/dementia_urinate_v1.png>
-) [9
-
-
-
-] [10] [11] [12]
+ [12]) [13] [14] [15] [16]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 第4章
-) [13
+) [17
 
 
 
 ]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [14
+ (./acknowledgments.tex) [18
 
 
 
@@ -510,7 +513,7 @@ File: figures/dementia_urinate_v1.png Graphic file (type bmp)
 ]
 \openout2 = `references.aux'.
 
- (./references.tex) [15
+ (./references.tex) [19
 
 
 
@@ -518,12 +521,12 @@ File: figures/dementia_urinate_v1.png Graphic file (type bmp)
 (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
 (./acknowledgments.aux) (./references.aux)) ) 
 Here is how much of TeX's memory you used:
- 3555 strings out of 493281
- 44330 string characters out of 6145041
- 142306 words of memory out of 5000000
- 7348 multiletter control sequences out of 15000+600000
+ 3557 strings out of 493281
+ 44363 string characters out of 6145041
+ 144321 words of memory out of 5000000
+ 7350 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,15n,32p,1611b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,15n,32p,1611b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (20 pages, 42172 bytes).
+Output written on thesis.dvi (24 pages, 56980 bytes).
