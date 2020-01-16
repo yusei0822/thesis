@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  16 JAN 2020 15:56
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  16 JAN 2020 17:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -300,22 +300,22 @@ LaTeX Warning: Label `elderly_v3' multiply defined.
 ) (./chapter4.aux) (./acknowledgments.aux) (./references.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -352,34 +352,34 @@ LaTeX Font Info:    ... okay on input line 45.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 49.
+(Font)              scaled to size 13.83836pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 49.
+(Font)              scaled to size 13.83836pt on input line 45.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 49.
+(Font)              scaled to size 19.9311pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 49.
+(Font)              scaled to size 19.9311pt on input line 45.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 49.
+(Font)              scaled to size 16.60605pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 49.
+(Font)              scaled to size 16.60605pt on input line 45.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 49.
+(Font)              scaled to size 23.90964pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 49.
+(Font)              scaled to size 23.90964pt on input line 45.
 [0
 
 
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 50.
+(Font)              scaled to size 9.60999pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 50.
+(Font)              scaled to size 9.60999pt on input line 46.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 50.
+(Font)              scaled to size 23.90964pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 50.
+(Font)              scaled to size 23.90964pt on input line 46.
  (./thesis.toc
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 4.
@@ -520,27 +520,27 @@ File: figures/dementia_urinate_v1.png Graphic file (type bmp)
  [13] [14] [15]
 File: figures/result_1.png Graphic file (type bmp)
 <figures/result_1.png>
-) [16] [17] [18] [19] [20]
+) [16] [17] [18] [19] [20] [21]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 第4章
-) [21
+) [22
 
 
 
 ]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex [22
+ (./acknowledgments.tex [23
 
 
 
 
-] [23]) [24]
+] [24]) [25]
 \openout2 = `references.aux'.
 
- (./references.tex) [25
+ (./references.tex) [26
 
 
 
@@ -555,12 +555,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3573 strings out of 493281
- 44703 string characters out of 6145041
- 150421 words of memory out of 5000000
- 7363 multiletter control sequences out of 15000+600000
+ 3575 strings out of 493281
+ 44735 string characters out of 6145041
+ 149443 words of memory out of 5000000
+ 7365 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,15n,32p,1613b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,15n,32p,1609b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (30 pages, 71776 bytes).
+Output written on thesis.dvi (31 pages, 73772 bytes).
