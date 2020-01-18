@@ -10,23 +10,34 @@
 \contentsline {subsection}{\numberline {1.1.6}医療技術導入における課題}{8}
 \contentsline {section}{\numberline {1.2}目的}{10}
 \contentsline {section}{\numberline {1.3}本論文の構成}{10}
-\contentsline {chapter}{\numberline {第2章}提案手法}{11}
-\contentsline {section}{\numberline {2.1}知的マルチエージェントモデル}{11}
-\contentsline {subsection}{\numberline {2.1.1}知的エージェントの構築}{12}
-\contentsline {subsection}{\numberline {2.1.2}Social force model}{14}
-\contentsline {subsection}{\numberline {2.1.3}シミュレーションフロー}{15}
-\contentsline {subsection}{\numberline {2.1.4}介護ペア選択アルゴリズム}{15}
-\contentsline {section}{\numberline {2.2}仮想環境}{15}
-\contentsline {subsection}{\numberline {2.2.1}高齢者施設}{15}
-\contentsline {subsection}{\numberline {2.2.2}介護者エージェント}{16}
-\contentsline {subsection}{\numberline {2.2.3}被介護者エージェント}{17}
-\contentsline {chapter}{\numberline {第3章}数値実験}{18}
-\contentsline {section}{\numberline {3.1}実験条件}{18}
-\contentsline {section}{\numberline {3.2}介護挙動の基本的な検証}{20}
-\contentsline {section}{\numberline {3.3}評価指標}{21}
-\contentsline {section}{\numberline {3.4}結果および考察}{22}
-\contentsline {chapter}{\numberline {第4章}結論}{28}
-\contentsline {section}{\numberline {4.1}本研究のまとめ}{28}
-\contentsline {section}{\numberline {4.2}今後の展望}{28}
-\contentsline {chapter}{謝辞}{29}
-\contentsline {chapter}{参考文献}{32}
+\contentsline {chapter}{\numberline {第2章}歩行者シミュレーション}{11}
+\contentsline {section}{\numberline {2.1}交通流シミュレーションの分類}{11}
+\contentsline {section}{\numberline {2.2}歩行者交通流モデル}{12}
+\contentsline {subsection}{\numberline {2.2.1}流体モデル}{12}
+\contentsline {subsection}{\numberline {2.2.2}CAモデル}{13}
+\contentsline {subsection}{\numberline {2.2.3}パーティクルモデル}{13}
+\contentsline {subsection}{\numberline {2.2.4}1次元追従モデル}{14}
+\contentsline {section}{\numberline {2.3}混合交通モデル}{16}
+\contentsline {subsection}{\numberline {2.3.1}歩車混合モデル}{16}
+\contentsline {subsection}{\numberline {2.3.2}その他の混合交通モデル}{17}
+\contentsline {section}{\numberline {2.4}新たな歩車混合交通流シミュレーション}{18}
+\contentsline {chapter}{\numberline {第3章}提案手法}{19}
+\contentsline {section}{\numberline {3.1}知的マルチエージェントモデル}{19}
+\contentsline {subsection}{\numberline {3.1.1}知的エージェントの構築}{20}
+\contentsline {subsection}{\numberline {3.1.2}Social force model}{22}
+\contentsline {subsection}{\numberline {3.1.3}シミュレーションフロー}{23}
+\contentsline {subsection}{\numberline {3.1.4}介護ペア選択アルゴリズム}{23}
+\contentsline {section}{\numberline {3.2}仮想環境}{23}
+\contentsline {subsection}{\numberline {3.2.1}高齢者施設}{23}
+\contentsline {subsection}{\numberline {3.2.2}介護者エージェント}{24}
+\contentsline {subsection}{\numberline {3.2.3}被介護者エージェント}{25}
+\contentsline {chapter}{\numberline {第4章}数値実験}{26}
+\contentsline {section}{\numberline {4.1}実験条件}{26}
+\contentsline {section}{\numberline {4.2}介護挙動の基本的な検証}{28}
+\contentsline {section}{\numberline {4.3}評価指標}{29}
+\contentsline {section}{\numberline {4.4}結果および考察}{30}
+\contentsline {chapter}{\numberline {第5章}結論}{36}
+\contentsline {section}{\numberline {5.1}本研究のまとめ}{36}
+\contentsline {section}{\numberline {5.2}今後の展望}{36}
+\contentsline {chapter}{謝辞}{37}
+\contentsline {chapter}{参考文献}{40}

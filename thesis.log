@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  17 JAN 2020 17:49
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  19 JAN 2020 02:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -287,7 +287,7 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 ) (./thesis.aux
-(./chapter1.aux) (./chapter2.aux) (./chapter3.aux
+(./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux
 
 LaTeX Warning: Label `elderly_v1' multiply defined.
 
@@ -297,7 +297,7 @@ LaTeX Warning: Label `elderly_v2' multiply defined.
 
 LaTeX Warning: Label `elderly_v3' multiply defined.
 
-) (./chapter4.aux) (./acknowledgments.aux) (./references.aux))
+) (./chapter5.aux) (./acknowledgments.aux) (./references.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -478,25 +478,34 @@ File: figures/yubicommunication.png Graphic file (type bmp)
 
  (./chapter2.tex
 第2章
-File: figures/concept_simulation.png Graphic file (type bmp)
-<figures/concept_simulation.png>
 [11
 
 
 
-] [12]
-File: figures/intelligent_agent.png Graphic file (type bmp)
-<figures/intelligent_agent.png>
-File: figures/agent_modeling.png Graphic file (type bmp)
-<figures/agent_modeling.png>
- [13] [14]
-File: figures/simulation_flow.png Graphic file (type bmp)
-<figures/simulation_flow.png>
- [15] [16]) [17]
+] [12] [13] [14] [15] [16] [17]) [18]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 第3章
+File: figures/concept_simulation.png Graphic file (type bmp)
+<figures/concept_simulation.png>
+[19
+
+
+
+] [20]
+File: figures/intelligent_agent.png Graphic file (type bmp)
+<figures/intelligent_agent.png>
+File: figures/agent_modeling.png Graphic file (type bmp)
+<figures/agent_modeling.png>
+ [21] [22]
+File: figures/simulation_flow.png Graphic file (type bmp)
+<figures/simulation_flow.png>
+ [23] [24]) [25]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex
+第4章
 File: figures/environment.png Graphic file (type bmp)
 <figures/environment.png>
 File: figures/elderly_v1.png Graphic file (type bmp)
@@ -505,7 +514,7 @@ File: figures/elderly_v2.png Graphic file (type bmp)
 <figures/elderly_v2.png>
 File: figures/elderly_v3.png Graphic file (type bmp)
 <figures/elderly_v3.png>
-[18
+[26
 
 
 
@@ -522,47 +531,47 @@ File: figures/health_frequently_urinate_v1.png Graphic file (type bmp)
 <figures/health_frequently_urinate_v1.png>
 File: figures/dementia_urinate_v1.png Graphic file (type bmp)
 <figures/dementia_urinate_v1.png>
- [19] [20] [21]
+ [27] [28] [29]
 File: figures/result_1.png Graphic file (type bmp)
 <figures/result_1.png>
-) [22] [23] [24] [25] [26] [27]
-\openout2 = `chapter4.aux'.
+) [30] [31] [32] [33] [34] [35]
+\openout2 = `chapter5.aux'.
 
- (./chapter4.tex
-第4章
-) [28
+ (./chapter5.tex
+第5章
+) [36
 
 
 
 ]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex [29
+ (./acknowledgments.tex [37
 
 
 
 
-] [30]) [31]
+] [38]) [39]
 \openout2 = `references.aux'.
 
- (./references.tex) [32
+ (./references.tex [40
 
 
 
-]
-(./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./acknowledgments.aux) (./references.aux))
+] [41])
+[42] (./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter5.aux) (./acknowledgments.aux) (./references.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3601 strings out of 493281
- 45312 string characters out of 6145041
- 149516 words of memory out of 5000000
- 7383 multiletter control sequences out of 15000+600000
+ 3626 strings out of 493281
+ 45629 string characters out of 6145041
+ 149853 words of memory out of 5000000
+ 7401 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,15n,32p,1609b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (37 pages, 95040 bytes).
+Output written on thesis.dvi (47 pages, 131792 bytes).
