@@ -46,10 +46,8 @@
 \contentsline {chapter}{\numberline {第5章}数値実験}{42}
 \contentsline {section}{\numberline {5.1}実験条件}{42}
 \contentsline {section}{\numberline {5.2}介護挙動の基本的な検証}{43}
-\contentsline {section}{\numberline {5.3}評価指標}{44}
-\contentsline {section}{\numberline {5.4}結果および考察}{45}
+\contentsline {section}{\numberline {5.3}評価指標}{45}
+\contentsline {section}{\numberline {5.4}結果および考察}{46}
 \contentsline {chapter}{\numberline {第6章}結論}{49}
-\contentsline {section}{\numberline {6.1}本研究のまとめ}{49}
-\contentsline {section}{\numberline {6.2}今後の展望}{49}
 \contentsline {chapter}{謝辞}{51}
-\contentsline {chapter}{参考文献}{55}
+\contentsline {chapter}{参考文献}{56}
