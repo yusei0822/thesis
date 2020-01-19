@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  19 JAN 2020 02:53
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  19 JAN 2020 18:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -287,7 +287,8 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 ) (./thesis.aux
-(./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux
+(./blank.aux) (./chapter1.aux) (./blank.aux) (./chapter2.aux) (./blank.aux)
+(./chapter3.aux) (./blank.aux) (./chapter4.aux
 
 LaTeX Warning: Label `elderly_v1' multiply defined.
 
@@ -297,7 +298,8 @@ LaTeX Warning: Label `elderly_v2' multiply defined.
 
 LaTeX Warning: Label `elderly_v3' multiply defined.
 
-) (./chapter5.aux) (./acknowledgments.aux) (./references.aux))
+) (./blank.aux) (./chapter5.aux) (./blank.aux) (./acknowledgments.aux)
+(./blank.aux) (./references.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -519,7 +521,11 @@ File: figures/agent_modeling.png Graphic file (type bmp)
  [24]
 File: figures/simulation_flow.png Graphic file (type bmp)
 <figures/simulation_flow.png>
- [25] [26]) [27] [28]
+ [25]
+Overfull \vbox (7.6818pt too high) has occurred while \output is active []
+
+
+[26] [27]) [28]
 \openout2 = `blank.aux'.
 
  (./blank.tex [29
@@ -611,12 +617,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3655 strings out of 493281
- 45914 string characters out of 6145041
- 149853 words of memory out of 5000000
- 7401 multiletter control sequences out of 15000+600000
+ 3670 strings out of 493281
+ 46062 string characters out of 6145041
+ 150124 words of memory out of 5000000
+ 7402 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,15n,32p,1609b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (54 pages, 131176 bytes).
+Output written on thesis.dvi (54 pages, 131736 bytes).
