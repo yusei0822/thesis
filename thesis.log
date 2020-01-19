@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  20 JAN 2020 01:29
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  20 JAN 2020 04:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -297,18 +297,10 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@cols=\count122
 \TX@ftn=\toks24
 ) (./thesis.aux (./chapter1.aux) (./blank.aux) (./chapter2.aux) (./blank.aux) (
-./chapter3.aux) (./blank.aux) (./chapter4.aux
-
-LaTeX Warning: Label `elderly_v1' multiply defined.
-
-
-LaTeX Warning: Label `elderly_v2' multiply defined.
-
-
-LaTeX Warning: Label `elderly_v3' multiply defined.
-
-) (./blank.aux) (./chapter5.aux) (./blank.aux) (./acknowledgments.aux)
-(./blank.aux) (./references.aux))
+./chapter3.aux) (./blank.aux) (./chapter4.aux) (./blank.aux) (./chapter5.aux) (
+./blank.aux)
+(./chapter6.aux) (./blank.aux) (./acknowledgments.aux) (./blank.aux)
+(./references.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -553,93 +545,124 @@ Overfull \hbox (12.49579pt too wide) in paragraph at lines 151--152
 
  (./chapter4.tex
 第4章
-File: figures/environment.png Graphic file (type bmp)
-<figures/environment.png>
-File: figures/elderly_v1.png Graphic file (type bmp)
-<figures/elderly_v1.png>
-File: figures/elderly_v2.png Graphic file (type bmp)
-<figures/elderly_v2.png>
-File: figures/elderly_v3.png Graphic file (type bmp)
-<figures/elderly_v3.png>
+File: figures/environment_v1.png Graphic file (type bmp)
+<figures/environment_v1.png>
 [33
 
 
 
 ]
+File: figures/environment_v2.png Graphic file (type bmp)
+<figures/environment_v2.png>
+ [34]
+File: figures/SFM_environment.png Graphic file (type bmp)
+<figures/SFM_environment.png>
+File: figures/SFM_visual.png Graphic file (type bmp)
+<figures/SFM_visual.png>
+ [35]
 File: figures/elderly_v1.png Graphic file (type bmp)
 <figures/elderly_v1.png>
 File: figures/elderly_v2.png Graphic file (type bmp)
 <figures/elderly_v2.png>
 File: figures/elderly_v3.png Graphic file (type bmp)
 <figures/elderly_v3.png>
+ [36] [37]
+File: figures/care_alert_v1.png Graphic file (type bmp)
+<figures/care_alert_v1.png>
+File: figures/alerts_v1.png Graphic file (type bmp)
+<figures/alerts_v1.png>
+File: figures/care_toilet_v1.png Graphic file (type bmp)
+<figures/care_toilet_v1.png>
+) [38] [39] [40]
+\openout2 = `blank.aux'.
+
+ (./blank.tex [41
+
+
+])
+\openout2 = `chapter5.aux'.
+
+ (./chapter5.tex
+第5章
+File: figures/environment.png Graphic file (type bmp)
+<figures/environment.png>
+
+LaTeX Warning: Reference `experiment' on page 42 undefined on input line 18.
+
 File: figures/health_urinate.png Graphic file (type bmp)
 <figures/health_urinate.png>
 File: figures/health_frequently_urinate_v1.png Graphic file (type bmp)
 <figures/health_frequently_urinate_v1.png>
 File: figures/dementia_urinate_v1.png Graphic file (type bmp)
 <figures/dementia_urinate_v1.png>
- [34] [35] [36]
+
+LaTeX Warning: Reference `experiment' on page 42 undefined on input line 41.
+
+[42
+
+
+
+] [43] [44]
 File: figures/result_1.png Graphic file (type bmp)
 <figures/result_1.png>
-) [37] [38] [39] [40] [41] [42]
+) [45] [46] [47]
 \openout2 = `blank.aux'.
 
- (./blank.tex [43
+ (./blank.tex [48
 
 
 ])
-\openout2 = `chapter5.aux'.
+\openout2 = `chapter6.aux'.
 
-
-(./chapter5.tex
-第5章
-) [44
+ (./chapter6.tex
+第6章
+) [49
 
 
 
 ]
 \openout2 = `blank.aux'.
 
- (./blank.tex [45
+ (./blank.tex [50
 
 
 
 ])
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex [46
+ (./acknowledgments.tex [51
 
 
 
-] [47]) [48]
+] [52]) [53]
 \openout2 = `blank.aux'.
 
  (./blank.tex
-[49
+[54
 
 
 ])
 \openout2 = `references.aux'.
 
- (./references.tex [50
+ (./references.tex [55
 
 
 
-] [51]) [52] (./thesis.aux (./chapter1.aux)
+] [56]) [57] (./thesis.aux (./chapter1.aux)
 (./blank.aux) (./chapter2.aux) (./blank.aux) (./chapter3.aux) (./blank.aux)
-(./chapter4.aux) (./blank.aux) (./chapter5.aux) (./blank.aux)
-(./acknowledgments.aux) (./blank.aux) (./references.aux))
+(./chapter4.aux) (./blank.aux) (./chapter5.aux) (./blank.aux) (./chapter6.aux)
+(./blank.aux) (./acknowledgments.aux) (./blank.aux) (./references.aux))
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3736 strings out of 493281
- 47160 string characters out of 6145041
- 151297 words of memory out of 5000000
- 7466 multiletter control sequences out of 15000+600000
+ 3778 strings out of 493281
+ 47974 string characters out of 6145041
+ 151594 words of memory out of 5000000
+ 7488 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,15n,32p,1609b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (59 pages, 147476 bytes).
+Output written on thesis.dvi (64 pages, 157712 bytes).

@@ -15,16 +15,21 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces 要介護認定の判定フロー}}{29}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces 樹形モデルの概要}}{30}
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 実験環境}}{34}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 健常者（介護技術を導入した場合の被介護者）の場合の可視化}}{35}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 頻尿の場合の可視化}}{36}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 認知症の場合の可視化}}{37}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 健常者（介護技術を導入した場合の被介護者）の場合の可視化}}{38}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 頻尿の場合の可視化}}{39}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 認知症の場合の可視化}}{40}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 健常者と認知症の場合の可視化}}{40}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces 健常者と頻尿の場合の可視化}}{41}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces 認知症と頻尿の場合の可視化}}{41}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces 実験結果}}{42}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 二次元空間の可視化}}{34}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 介護者・被介護者の可視化}}{34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces SFMの検証における環境設定}}{35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces SFMの検証における可視化結果}}{36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 健常者（介護技術を導入した場合の被介護者）の場合の可視化}}{37}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 頻尿の場合の可視化}}{37}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 認知症の場合の可視化}}{38}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 介護行動の可視化}}{39}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 複数介護アラートが出た場合の可視化}}{39}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 介護行動の可視化}}{40}
+\addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 実験環境}}{43}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 健常者と認知症の場合の可視化}}{44}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 健常者と頻尿の場合の可視化}}{44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 認知症と頻尿の場合の可視化}}{45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 実験結果}}{46}
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

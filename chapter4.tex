@@ -1,160 +1,100 @@
 % 4章
-\chapter{数値実験}
+\chapter{モデルの検証}
 
-研究で新たに実装した歩行者工一ジェントおよび歩車相互作用モデルの定量的な評価性能を検証するために，シミュレーション実験を行った．
-この章では，実験で用いた環境設定と，実験結果をどのような評価指標で判断したか，またその結果と考察についてまとめている．
+本章では，高齢者施設を模した介護空間が環境として設定できているか，使用した歩行者モデルのSocial Force Modelが正しく動いているか，作成したシミュレータの中で介護シミュレーションが正しく機能しているかについて検証する．Social Force Modelの検証では，歩行者しかいない環境における基本的な可視化をおこない，目的への斥力や他エージェントからの斥力が働いているかを確認する．介護シミュレーションの検証では，被介護者がアラートを出した時に介護者が経路選択を行い，あらかじめ設定した介護行動が行われるかを可視化する．また、複数の介護アラートが発生した時に，あらかじめ設定したロジックに基づき介護対象を選択できるかについても検証を行う．
 
-\section{実験条件}
+\section{環境設定の検証}
 
-今回の実験では，図\ref{environment}に示すように，15m四方の二次元平面と，排泄場所としてのトイレをその上部に設置した．
+環境設定の検証は，いくつかの二次元平面を実際に作成し，可視化することで行う．また，その中で介護者・被介護者も同様に可視化する．被介護者は通常状態とアラートを出している状態で色を変える．まずは図\ref{environment_v1}にあるように，簡単な二次元平面と歩行者を可視化した．次に，図\ref{environment_v2}のように，同じ二次元空間の中で，介護者と被介護者を可視化し，被介護者の状態によって色が変わった状態も可視化できた．同様に車椅子に乗っている被介護者を想定した被介護者エージェントや，技術によるサポートを受けている被介護者を想定した被介護者エージェントも同様に，色や形を変えることで表現することができる．本シミュレータでは，介護空間を記述するための必要条件である，二次元平面と介護者，被介護者を再現することができると言える．
 
 \begin{figure}[htb]
 \begin{center}
- \includegraphics[scale=0.6]{figures/environment.png}
- \caption[実験環境]{実験環境 \label{environment}}
+ \includegraphics[scale=0.4]{figures/environment_v1}
+ \caption[二次元空間の可視化]{二次元空間の可視化 \label{environment_v1}}
 \end{center}
 \end{figure}
 
-この環境の中で，介護者と被介護者の可視化をおこなっていく．今回の実験では，介護における技術を導入した際に，それが介護環境にどのようなインパクトをあたえるのかについて検証を行うことが目的であるので，介護者の数は1人，被介護者の数は16人と設定し，比較的大きい施設を対象とした．
-被介護者のバリエーションとしては，健常者（技術のサポートを受けている被介護者），頻尿である被介護者，認知症等の要因によってトイレにいくというアラートを出すことが難しい状況にある被介護者の3種類を想定している．
-それぞれ図\ref{elderly_v1}，図\ref{elderly_v2}，図\ref{elderly_v3}に示しているように，可視化の際に形を変えることでエージェントがそれぞれどのように相互作用を行っているのかを見ることができる．
+\begin{figure}[htb]
+\begin{center}
+ \includegraphics[scale=0.4]{figures/environment_v2}
+ \caption[介護者・被介護者の可視化]{介護者・被介護者の可視化 \label{environment_v2}}
+\end{center}
+\end{figure}
+
+\section{Social Force Modelの検証}
+
+Social Force Modelの検証は，環境設定の検証で作成した環境とは異なる二次元空間を作成し，その中でエージェント同士の相互作用が行われているかを確認する．歩行者エージェント作成し，手入力で目的地の配列を初期条件として与え，一定時間ごとに同じスタート地点にエージェントを発生させ，同じ経路を設定する．現在地から目的地までは，Social Force Modelで定義されている目的地に向かう力と他のエージェントからの斥力，壁からの斥力，魅力的な場所からの引力（本検証では用いない）の合力が働くので，例えば同じ経路上ですれ違う場合は，たとえ経路が同じであったとしても互いが互いを避けて通るようになるはずである．
+
+まずは，環境として図\ref{SFM_environment}を準備する．二次元空間の中に壁を作成し，1の位置から歩行者エージェントが一定時間ごとに発生するようにする．歩行者エージェントは，1から順番に1，2，3，4，3，2，5，2，1，6という経路の目的地群を与え，現在の目的地であるサブゴールに到着すると，次の目的に向かって移動していく．
 
 \begin{figure}[htb]
 \begin{center}
- \includegraphics[scale=0.6]{figures/elderly_v1.png}
+ \includegraphics[scale=0.6]{figures/SFM_environment}
+ \caption[SFMの検証における環境設定]{SFMの検証における環境設定 \label{SFM_environment}}
+\end{center}
+\end{figure}
+
+その様子を図\ref{SFM_visual}に可視化した．シミュレーションでは，目的地に到着後，壁にぶつからないように折り返し，他のエージェントとすれ違う際に，目的地間の最短経路を通らず，お互いがお互いを避ける挙動を確認することができた．本シミュレータでは，介護空間を記述するための必要条件である，経路選択と目的地までの移動を再現することができると言える．
+
+\begin{figure}[htb]
+\begin{center}
+ \includegraphics[scale=0.6]{figures/SFM_visual}
+ \caption[SFMの検証における可視化結果]{SFMの検証における可視化結果 \label{SFM_visual}}
+\end{center}
+\end{figure}
+
+\section{介護シミュレーションの検証}
+
+本章では最後に，介護シミュレーションについての検証を行う．本シミュレーションでは，被介護者のバリエーションとして以下の3種類を実装している．
+
+\begin{itemize}
+ \item 適切なタイミングで介護アラートを出すエージェント
+ \item 早いタイミングで介護アラートを出すエージェント
+ \item 遅いタイミングで介護アラートを出すエージェント
+\end{itemize}
+
+本研究では、排泄介助を対象としているので、適切なタイミングで介護アラートを出すエージェントを健常者（技術のサポートを受けている被介護者），早いタイミングで介護アラートを出すエージェントを頻尿の被介護者，遅いタイミングで介護アラートを出すエージェントを認知症の被介護者と呼ぶことにする．それぞれを可視化した図が，図\ref{elderly_v1}，図\ref{elderly_v2}，図\ref{elderly_v3}である．
+
+\begin{figure}[htb]
+\begin{center}
+ \includegraphics[scale=0.5]{figures/elderly_v1.png}
  \caption[健常者（介護技術を導入した場合の被介護者）の場合の可視化]{健常者（介護技術を導入した場合の被介護者）の場合の可視化 \label{elderly_v1}}
 \end{center}
 \end{figure}
 
 \begin{figure}[htb]
 \begin{center}
- \includegraphics[scale=0.6]{figures/elderly_v2.png}
+ \includegraphics[scale=0.5]{figures/elderly_v2.png}
  \caption[頻尿の場合の可視化]{頻尿の場合の可視化 \label{elderly_v2}}
 \end{center}
 \end{figure}
 
 \begin{figure}[htb]
 \begin{center}
- \includegraphics[scale=0.6]{figures/elderly_v3.png}
+ \includegraphics[scale=0.5]{figures/elderly_v3.png}
  \caption[認知症の場合の可視化]{認知症の場合の可視化 \label{elderly_v3}}
 \end{center}
 \end{figure}
 
-この3種類のエージェントが，介護施設内の自由時間である2時間の間にいかなる回数排泄介助を行うことが必要か，またその介助は本当に必要であったのかということを確かめる実験をおこなう．
-一般的に高齢者の排尿量は一回で100-150mlで，1日に8−10回ほどトイレで尿を行うことが知られているので，今回の実験ではそちらの数値を用いることとした．
-健常者の場合は，
-頻尿の場合は，
-認知症の場合は，
-この3種類を〜のように組み合わせた6パターンにおいて，相互作用を確認することとする．2時間という時間の中で介護シミュレーションを行い，それを本章で示す評価指標で評価する．
+ここでは，介護シミュレーションを可視化するために，これら3種類のエージェントを介護環境に配置する．それぞれが介護アラートを出す条件を，健常者の場合は100ml以上になった時点，頻尿の場合は75ml以上になった時点，認知症の場合は150ml以上で介護アラートを発する設定にし，アラートが発された時に被介護者とランダムにマッチングし，トイレへと向かうよう介護行動を設定した．この時，図\ref{care_alert_v1}のように，被介護者エージェントが介護アラートを出した時に、介護者エージェントが被介護者エージェントの元へ行き，トイレと連れて行く様子を可視化することができた．また，図\ref{alerts_v1}のように，複数の被介護者が同時に介護アラートを出した時は，介護者エージェントが介護すべき最適なエージェントの元へ行き，介護行動を行う様子も可視化することができた．そして図\ref{care_toilet_v1}のように，その介護が終わると同時に，残りの被介護者エージェントの元へと介護行動に向かわせることができた．したがって本シミュレーションは，介護環境を再現するのに必要最低限の機能を有したシミュレーションであると言える．なお，必要最低限の機能とは，被介護者がアラートを出した時点で，介護すべき最適な介護者とマッチングし，その介護者が適切に介護を行うことができることである．
 
 \begin{figure}[htb]
 \begin{center}
- \includegraphics[scale=0.6]{figures/elderly_v1.png}
- \caption[健常者（介護技術を導入した場合の被介護者）の場合の可視化]{健常者（介護技術を導入した場合の被介護者）の場合の可視化 \label{elderly_v1}}
+ \includegraphics[scale=0.5]{figures/care_alert_v1.png}
+ \caption[介護行動の可視化]{介護行動の可視化 \label{care_alert_v1}}
 \end{center}
 \end{figure}
 
 \begin{figure}[htb]
 \begin{center}
- \includegraphics[scale=0.6]{figures/elderly_v2.png}
- \caption[頻尿の場合の可視化]{頻尿の場合の可視化 \label{elderly_v2}}
+ \includegraphics[scale=0.5]{figures/alerts_v1.png}
+ \caption[複数介護アラートが出た場合の可視化]{複数介護アラートが出た場合の可視化 \label{alerts_v1}}
 \end{center}
 \end{figure}
 
 \begin{figure}[htb]
 \begin{center}
- \includegraphics[scale=0.6]{figures/elderly_v3.png}
- \caption[認知症の場合の可視化]{認知症の場合の可視化 \label{elderly_v3}}
+ \includegraphics[scale=0.5]{figures/care_toilet_v1.png}
+ \caption[介護行動の可視化]{介護行動の可視化 \label{care_toilet_v1}}
 \end{center}
 \end{figure}
-
-\begin{figure}[htb]
-\begin{center}
- \includegraphics[scale=0.6]{figures/health_urinate.png}
- \caption[健常者と認知症の場合の可視化]{健常者と認知症の場合の可視化 \label{health_urinate}}
-\end{center}
-\end{figure}
-
-\begin{figure}[htb]
-\begin{center}
- \includegraphics[scale=0.6]{figures/health_frequently_urinate_v1.png}
- \caption[健常者と頻尿の場合の可視化]{健常者と頻尿の場合の可視化 \label{health_frequently_urinate_v1}}
-\end{center}
-\end{figure}
-
-\begin{figure}[htb]
-\begin{center}
- \includegraphics[scale=0.6]{figures/dementia_urinate_v1.png}
- \caption[認知症と頻尿の場合の可視化]{認知症と頻尿の場合の可視化 \label{dementia_urinate_v1}}
-\end{center}
-\end{figure}
-
-Case1は、健常の被介護者（技術の補助を受けた被介護者）が100％の状態，Case2は頻尿の被介護者が100％の状態，Case3は認知症の被介護者が100％の状態，Case4は、健常の被介護者（技術の補助を受けた被介護者）と頻尿の被介護者が50％ずつの状態，Case5は健常の被介護者（技術の補助を受けた被介護者）と認知症の被介護者が50％ずつの状態，Case6は頻尿の被介護者と認知症の被介護者が50％ずつの状態を表現し，それぞれで実験を行う．実験条件については表\ref{experiment}に示す．
-
-\begin{table}[htb]
-  \caption[実験条件]{実験条件}
-  \label{experiment}
-  \centering
-  \begin{tabular}{r|c|c|c|c|c|c}
-     & Case1 & Case2 & Case3 & Case4 & Case5 & Case6 \\ \hline
-    健常者 & 100％ & 0％ & 0％ & 50％ & 50％ & 0％ \\
-    頻尿   & 0％ & 100％ & 0％ & 50％ & 0％ & 50％ \\
-    認知症 & 0％ & 0％ & 100％ & 0％ & 50％ & 50％ \\
-    \end{tabular}
-\end{table}
-
-\section{介護挙動の基本的な検証}
-
-本シミュレータが現実を反映できているのかについて，簡単な検証を行った．
-被介護者が，時系列で尿量が加算されて行き，その数値が健常者の場合は100mlを超えた時点で，頻尿の被介護者は〜を超えた時点で，認知症の被介護者は〜を超えた時点で，トイレに行きたいというアラートを発するように内部状態を設定した．その結果，健常者の場合は，2時間の間に1回トイレに行くという結果を得ることができた．これは実際のデータと比較しても整合性のある値となった．この結果を表\ref{number_of_urination}に示す．なお，実験では16人の被介護者が存在するので実際は数値を16で割った数字が一人当たりの回数となっている．
-
-\begin{table}[htb]
-  \caption[被介護者ごとの排尿回数]{被介護者ごとの排尿回数}
-  \label{number_of_urination}
-  \centering
-  \begin{tabular}{r|c|c|c}
-     & 健常者 & 頻尿 & 認知症 \\ \hline
-    一回目 & 15 & 21 & 6 \\
-    二回目 & 15 & 22 & 5 \\
-    三回目 & 16 & 26 & 5 \\
-    \end{tabular}
-\end{table}
-
-\section{評価指標}
-
-本研究の目的は，疾患のある被介護者，すなわち現状介護者の負担増の原因となっており，被介護者自身も自らの排泄が負担となっているようなケースにおいて，技術の導入を行うことでどれだけの効果が得られるのかを可視化するというものである．そこで，評価指標としては，排泄に行くべきである尿量の状態，あるいは自身が排泄に行きたいと感じている状態から実際に排泄を行うまでの時間を計測し，それを総我慢時間とし，本研究の評価指標とする．
-
-\section{結果および考察}
-
-図\ref{result_v1}に，介護者・被介護者の割合をCase1からCase6までそれぞれ変化させた場合のシミュレーション結果（10回の試行の平均値）を示す．また，表\ref{relative_error}に，Case1に対する相対誤差を示した．次に表\ref{number_of_care}に，Caseごとの介護回数とCase1に対する相対誤差を示した．
-
-\begin{figure}[htb]
-\begin{center}
- \includegraphics[scale=0.6]{figures/result_1.png}
- \caption[実験結果]{実験結果 \label{result_v1}}
-\end{center}
-\end{figure}
-
-\begin{table}[htb]
-  \caption[Case1に対する相対誤差]{Case1に対する相対誤差}
-  \label{relative_error}
-  \centering
-  \begin{tabular}{r|c|c|c|c|c}
-     & Case2 & Case3 & Case4 & Case5 & Case6 \\ \hline
-    相対誤差 & 2.47 & 9.05 & 0.26 & 4.84 & 5.19 \\
-    \end{tabular}
-\end{table}
-
-
-\begin{table}[htb]
-  \caption[Caseごとの介護回数]{Caseごとの介護回数}
-  \label{number_of_care}
-  \centering
-  \begin{tabular}{r|c|c|c|c|c|c}
-     & case1 & Case2 & Case3 & Case4 & Case5 & Case6 \\ \hline
-    介護回数 & 15-16 & 21-26 & 5-6 & 19-21 & 9-10 & 16-17 \\
-    相対誤差 & & 0.50 & -0.65 & 0.31 & -0.37 & 0.07 \\
-    \end{tabular}
-\end{table}
-
-Case3の総我慢時間が，もっとも高いものとなっているが，これは被介護者が本来なら排泄に向かうべき尿量であるのにも関わらず，無意識のうちに我慢をしてしまい，介護者にアラートを出した時点ですでにかなりの時間を待ち時間として計測してしまっていることが原因であることが考えられる．Case5では，数値上は相対誤差がかなり少ないように見えるが，実際は健常者と認知症の被介護者の間の待ち時間の差が大きく，健常者の割合が減ったことで，健常者がアラートを出した際にすぐ介護してもらえたということがあげられる．実際の現場では，被介護者の要介護によって，どの介護者がつくべきかということが事前情報として与えられているため，このような複雑な状況にも対応していけるような環境をつくっているという示唆を得ることができる．今後の検討課題として，そういった事前情報の有無によって，どの介護者と被介護者をマッチングさせるのかということが挙げられる．Case2については，過剰介護が問題であると考えられる．健常者の場合と比べ，50％以上も介護士の労働力に悪影響を与えているといえる．

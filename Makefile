@@ -10,7 +10,7 @@ DVIPDF = dvipdfmx
 TEXFLAGS    = -file-line-error -shell-escape -kanji=utf8
 DVIPDFFLAGS =
 
-SOURCE  = main.tex chapter1.tex chapter2.tex chapter3.tex chapter4.tex chapter5.tex acknowledgments.tex references.tex blank.tex
+SOURCE  = main.tex chapter1.tex chapter2.tex chapter3.tex chapter4.tex chapter5.tex chapter6.tex acknowledgments.tex references.tex blank.tex
 JOBNAME = thesis
 TARGET  = $(JOBNAME).pdf
 
