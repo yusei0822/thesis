@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  20 JAN 2020 05:15
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.1.24)  22 JAN 2020 03:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -458,21 +458,21 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 File: figures/population_GDP_relation.png Graphic file (type bmp)
 <figures/population_GDP_relation.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 19.
+(Font)              scaled to size 8.64899pt on input line 15.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 19.
+(Font)              scaled to size 8.64899pt on input line 15.
 File: figures/nurse_facility_increase.png Graphic file (type bmp)
 <figures/nurse_facility_increase.png>
  [2]
 File: figures/care_worker_comparison.png Graphic file (type bmp)
 <figures/care_worker_comparison.png>
  [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
 
 [4] [5] [6]
 File: figures/care_robots.png Graphic file (type bmp)
@@ -597,12 +597,17 @@ File: figures/dementia_urinate_v1.png Graphic file (type bmp)
 
 
 ] [43] [44] [45]
-File: figures/result_1.png Graphic file (type bmp)
-<figures/result_1.png>
- [46]) [47]
+File: figures/result_v1.png Graphic file (type bmp)
+<figures/result_v1.png>
+
+Overfull \hbox (37.3117pt too wide) in paragraph at lines 81--82
+ [] 
+ []
+
+[46] [47]) [48]
 \openout2 = `blank.aux'.
 
- (./blank.tex [48
+ (./blank.tex [49
 
 
 ])
@@ -610,50 +615,50 @@ File: figures/result_1.png Graphic file (type bmp)
 
  (./chapter6.tex
 第6章
-) [49
+) [50
 
 
 
 ]
 \openout2 = `blank.aux'.
 
- (./blank.tex [50
+ (./blank.tex [51
 
 
 
 ])
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [51
+ (./acknowledgments.tex) [52
 
 
 
-] [52] [53] [54]
+] [53] [54] [55]
 \openout2 = `blank.aux'.
 
 
-(./blank.tex [55
+(./blank.tex [56
 
 
 ])
 \openout2 = `references.aux'.
 
- (./references.tex [56
+ (./references.tex [57
 
 
 
-] [57]) [58] (./thesis.aux
+] [58]) [59] (./thesis.aux
 (./chapter1.aux) (./blank.aux) (./chapter2.aux) (./blank.aux) (./chapter3.aux)
 (./blank.aux) (./chapter4.aux) (./blank.aux) (./chapter5.aux) (./blank.aux)
 (./chapter6.aux) (./blank.aux) (./acknowledgments.aux) (./blank.aux)
 (./references.aux)) ) 
 Here is how much of TeX's memory you used:
  3778 strings out of 493281
- 47974 string characters out of 6145041
+ 47977 string characters out of 6145041
  154589 words of memory out of 5000000
  7488 multiletter control sequences out of 15000+600000
  19610 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,15n,32p,1609b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (65 pages, 165544 bytes).
+Output written on thesis.dvi (66 pages, 170224 bytes).

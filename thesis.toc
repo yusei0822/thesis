@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {2.3}混合交通モデル}{17}
 \contentsline {subsection}{\numberline {2.3.1}歩車混合モデル}{17}
 \contentsline {subsection}{\numberline {2.3.2}その他の混合交通モデル}{18}
-\contentsline {section}{\numberline {2.4}新たな歩車混合交通流シミュレーション}{19}
+\contentsline {section}{\numberline {2.4}新たな歩行者シミュレーション}{19}
 \contentsline {chapter}{\numberline {第3章}提案手法}{21}
 \contentsline {section}{\numberline {3.1}知的マルチエージェントモデル}{21}
 \contentsline {subsection}{\numberline {3.1.1}知的エージェントの構築}{22}
@@ -45,9 +45,9 @@
 \contentsline {section}{\numberline {4.3}介護シミュレーションの検証}{36}
 \contentsline {chapter}{\numberline {第5章}数値実験}{42}
 \contentsline {section}{\numberline {5.1}実験条件}{42}
-\contentsline {section}{\numberline {5.2}介護挙動の基本的な検証}{43}
+\contentsline {section}{\numberline {5.2}介護挙動の基本的な検証}{44}
 \contentsline {section}{\numberline {5.3}評価指標}{45}
 \contentsline {section}{\numberline {5.4}結果および考察}{46}
-\contentsline {chapter}{\numberline {第6章}結論}{49}
-\contentsline {chapter}{謝辞}{51}
-\contentsline {chapter}{参考文献}{56}
+\contentsline {chapter}{\numberline {第6章}結論}{50}
+\contentsline {chapter}{謝辞}{52}
+\contentsline {chapter}{参考文献}{57}
